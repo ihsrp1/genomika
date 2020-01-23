@@ -24,7 +24,7 @@ Versões utilizadas:
 - Psycopg2: 2.8.4 (Biblioteca Python)
 
 Para executar, siga os seguintes passos:
-- Vá até a pasta inicial e execute:
+- Vá até a pasta "trydjango" e execute:
 ```
 $ source bin/activate
 ```
