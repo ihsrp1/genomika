@@ -1,0 +1,20 @@
+{% load static from staticfiles %}
+
+
+<html>
+    <head>
+    </head>
+
+    <body>
+        <img src="{% static 'logo-gnmk-einstein.jpg' %}" alt="Logo Genomika" style="width: 400px; height: 75px;margin: 2%;">
+        <form method="POST" style="text-align: center;margin-top: 10%;"> {% csrf_token %}
+            {% if ok %}
+                <h3 style="color: green;">Conta registrada com sucesso</h3>
+            {% endif %}
+            <h4>Digite o usuário e senha da nova conta</h4>
+            {{ form.as_p }}
+            <input type='submit' value='Submit' />
+            
+        </form>
+</body>
+</html>
