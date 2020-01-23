@@ -48,11 +48,11 @@ $ python (ou python3) manage.py runserver
 - Ao fazer login, a próxima tela que deverá ser carregada é a tela de buscas. Para realizar uma busca, digite o nome da doença sem
 aspas, ou, se a busca for por múltiplas doenças, digite conforme a seguinte formatação:
 
-    "nome da doença", "nome de outra doença", "nome de outra"
+    _"nome da doença", "nome de outra doença", "nome de outra"_
 
   E após clicar no botão "Submit", a próxima tela será uma com os genes cadastrados a essa doença no banco de dados, ou a seguinte mensagem caso a doença não esteja cadastrada:
   
-  Doença não encontrada. Tente outra vez.
+  _Doença não encontrada. Tente outra vez._
 - O banco de dados já estará criado com as doenças. Para atualizá-lo é possível rodar:
 ```
 $ python (ou python3) manage.py update_local
